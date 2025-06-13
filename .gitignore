@@ -1,0 +1,25 @@
+# Fichiers et dossiers de compilation C++
+build/
+Release/
+Debug/
+*.lib
+*.dll
+*.exp
+*.ilk
+*.pdb
+*.exe
+*.obj
+
+# Module Python compilé 
+modules/fast_pricer.pyd
+
+# Environnement virtuel Python
+.venv/
+
+# Dossiers de cache Python et Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Fichiers de configuration IDE 
+.vscode/
+.idea/
